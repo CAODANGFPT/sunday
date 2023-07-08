@@ -1,0 +1,55 @@
+.xoa-ds{
+    background-color: #0D6EFD;
+    color: white;
+    padding: 15px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+
+.sua-album ,.sua-ds{
+    background-color: burlywood;
+    color: white;
+    padding: 15px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.bgr{
+    background-color: burlywood;
+    color: white;
+    padding: 60px;
+    font-size: 25px;
+
+}
+.px{
+    margin: 20px;
+   padding: 10px;
+}
+.delete{
+    background-color: rgb(179, 168, 168);
+    color: white;
+    padding: 15px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+.dm h1{
+    color: blueviolet;
+    margin: 20px 0;
+}
+.tk div p{
+    margin: 10px 0;
+    color: red;
+}
+.tk h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color: blueviolet;
+}
+select{
+    padding: 14px;
+  margin-bottom: 20px;
+}

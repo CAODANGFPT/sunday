@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.slider{
+    font-family: 'Tahoma' , sans-serif;  
+    /* padding: 0 20px; */
+    width: 1300px;
+    margin: auto;
+}
+
+.product-box{
+    
+    display: flex;
+    flex-direction: column;
+    width:  405px;
+    height: 500px;
+    text-decoration: none;
+
+    border-radius: 20px;
+    margin: 45px 10px;
+    position: relative;
+    box-shadow: 2px 2px 8px rgba(0, 0,0, 0.03);
+    border: 1px solid rgba(0,0,0,0.08);
+    overflow: hidden;
+    transition: all ease 0.3s;
+   
+}
+/* slider dv */
+.bug1 .product-box .img1{
+height: 500px;
+background-size: cover;
+background-position: 50% 50%;
+position: absolute;
+}
+.content-img{
+padding: 90px 50px;
+text-align: center;
+color: white;
+background-color: rgba(34, 29, 29, 0.5);
+height: 500px;
+}
+.content-img h4{
+    font-weight: 500;
+font-size: 20px;
+line-height: 25px;
+}
+.content-img hr{
+width: 100px;
+height: 2px;
+background-color: white;
+
+}
+.content-img button{
+background-color: rgba(34, 29, 29, 0);
+color: white;
+border: none;
+padding: 10px;
+border-bottom: 3px solid white;
+} 
+.content-img button:hover{
+color: burlywood;
+border-bottom: 3px solid burlywood;
+}
+
+.product-box a:hover{
+text-decoration: none;
+}
+/* slider tv */
+
+

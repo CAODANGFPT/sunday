@@ -1,0 +1,25 @@
+
+.dm {
+    width: 1200px;
+
+}
+
+.dm>h1{
+    text-align: center;
+}
+.b1{
+    border: 1px solid black;
+    text-align: center;
+}
+table.tb th{
+    background-color: gainsboro;
+}
+
+table.tb {
+    width: 100%;
+}
+
+table.tb img {
+    width: 150px;
+    padding: 8px;
+}

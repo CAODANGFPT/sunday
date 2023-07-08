@@ -1,0 +1,52 @@
+.text_qldatban {
+    font-size: 12px;
+    
+}
+
+.text_cter {
+    text-align: center;
+}
+
+.p_left_10px{
+    padding-left: 10px;
+}
+
+.p_8px{
+    padding: 8px;
+}
+
+.p_10px{
+    padding: 10px;
+}
+
+.m_top_8px{
+    margin-top: 10px;
+}
+
+.m_top_10px{
+    margin-top: 10px;
+}
+
+.border_table{
+    border: 1px solid black;
+}
+
+.items_cter {
+    align-items: center;
+}
+
+.btn_cndb{
+    padding: 10px;
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn_cndb:hover{
+    background-color: rgb(112, 112, 112);
+}
+
+.w_full {
+    width: 100%;
+}

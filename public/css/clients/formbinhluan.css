@@ -1,0 +1,38 @@
+
+.w_full {
+    width: 1200px;
+}
+
+.text_bl_cter {
+    text-align: center;;
+}
+
+.p_10px{
+    padding: 15px;
+}
+
+.m_left_8px{
+    margin-left: 8px;
+}
+
+.nd_form_bl {
+    width: 100%;
+    height: 40px;
+}
+
+.btn_from_bl {
+    position: relative;
+    bottom: 36px;
+    padding: 8px;
+    left: 1190px;
+    width: 60px;
+    color: white;
+    background-color: #CFA670;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn_from_bl:hover {
+    color: white;
+    background-color: thistle;
+}

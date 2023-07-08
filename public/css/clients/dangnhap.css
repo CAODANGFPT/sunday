@@ -1,0 +1,49 @@
+:root {
+    --bg1: #9b59b6;
+    --bg2: #3498db;
+    --text: #26ade4;
+
+}
+
+.container2 {
+    background-color: white;
+    font-family: 'Roboto';
+    width: 500px;
+    margin: 50px auto;
+    border: 1px solid rgb(214, 214, 208);
+    border-radius: 5px;
+
+}
+
+.form12 {
+    text-align: center;
+}
+
+.input2 {
+
+    padding: 12px;
+    width: 70%;
+    margin: 20px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid rgb(200, 191, 191);
+}
+
+h3 {
+
+    color: #9b59b6;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 20px;
+
+}
+
+.buttondn {
+    font-family: 'Roboto';
+    width: 70%;
+    margin: 40px 0;
+    padding: 15px;
+    background: linear-gradient(to bottom right, var(--bg1), var(--bg2));
+    color: white;
+    border: none;
+}

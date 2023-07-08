@@ -1,0 +1,53 @@
+.dm {
+    width: 1200px;
+
+}
+
+.bgb {
+    background-color: #FFAF3F;
+    color: white;
+}
+
+.text_cter {
+    text-align: center;
+}
+
+.border-td {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.table_td {
+    margin: 8px;   
+}
+
+.border-tr-td {
+    border: 1px solid black;
+}
+
+.sua_td {
+    padding: 5px;
+    width: 20%;
+    background-color: blue;
+    color: white;
+    border: 1px ;
+}
+
+.xoa_td {
+    padding: 5px;
+    width: 20%;
+    background-color: blue;
+    color: white;
+    border: 1px ;
+}
+
+.btn_cn{
+    border-radius: 5px;
+    padding: 8px;
+    margin: 8px;
+    width: 80px;
+    background-color: blue;
+    color: white;
+    border: 1px; 
+}

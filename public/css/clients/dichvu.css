@@ -1,0 +1,693 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container1 {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.option {
+    font-family: 'Tahoma', sans-serif;
+    margin-top: 10px;
+}
+
+.nav-left input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(158, 152, 152);
+    margin-top: 7px;
+
+}
+
+.option h3 {
+    font-weight: 500;
+    border-bottom: 2px solid black;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+
+.nav-left a i {
+
+    text-align: center;
+    background-color: burlywood;
+    padding: 13px;
+    color: aliceblue;
+}
+
+.ba-search {
+    position: relative;
+}
+
+.search {
+    position: absolute;
+    top: 7px;
+    right: 0;
+}
+
+/* .menu{
+
+    border: 1px solid rgb(192, 182, 182);
+    border-radius: 5px;
+    padding: 12px;
+    margin: 10px 0;
+} */
+.menudv a {
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    border: 1px solid rgb(192, 182, 182);
+    display: block;
+    border-radius: 5px;
+    padding: 12px;
+    margin: 10px 0;
+    transition: 0.5s;
+    opacity: 0.7;
+
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 13px;
+}
+
+.row2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.danh-muc h3 {
+    margin-bottom: 20px;
+}
+
+.menudv a:hover {
+    background-color: burlywood;
+    color: white;
+    padding-left: 25px;
+    opacity: 1;
+
+}
+
+.menu-tags a {
+    color: black;
+    border: 1px solid rgb(192, 182, 182);
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 12px;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 4px;
+    opacity: 0.7;
+}
+
+.menu-tags a:hover {
+    background-color: burlywood;
+    color: white;
+    opacity: 1;
+}
+
+.content p {
+    font-size: 16px;
+    padding: 30px;
+    margin-top: 20px;
+    box-shadow: rgb(227, 227, 227) 0px 0px 30px 10px;
+    line-height: 26px;
+}
+
+/* img */
+.img1 {
+    width: 100%;
+    height: 500px;
+    margin-top: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    display: block;
+
+
+}
+
+.content-img hr {
+    margin-top: 10px;
+    width: 100px;
+    height: 1px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: white;
+    border: 1px solid white;
+
+}
+
+.content-img h4 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.content-img p {
+    margin: 30px 0;
+}
+
+.content-img {
+    font-size: 16px;
+    padding: 90px 50px;
+    color: white;
+    text-align: center;
+    background-color: rgba(34, 29, 29, 0.5);
+    height: 500px;
+
+}
+
+.content-img button {
+    background-color: rgba(34, 29, 29, 0);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-bottom: 3px solid white;
+}
+
+.content-img button:hover {
+    color: burlywood;
+    border-bottom: 3px solid burlywood;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.cols-1 a {
+    text-decoration: none;
+}
+
+
+.nav-dh {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.nav-dh a {
+
+    color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+    position: relative;
+}
+
+.nav-dh p {
+    text-decoration: none;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border-radius: 50%;
+
+}
+
+.nav-dh a:hover {
+    color: white;
+    background-color: burlywood;
+}
+
+
+#sv a {
+    background-color: burlywood;
+    color: white;
+}
+
+/* * */
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Tahoma', sans-serif;
+}
+
+.container1 {
+    width: 1300px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.img-banner {
+    margin-top: 20px;
+    border: 1px solid rgb(207, 196, 196);
+    padding: 10px;
+}
+
+
+.cols h3 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.cols p {
+    font-size: 16px;
+}
+
+.cols .ctn {
+    display: block;
+    color: red;
+    font-size: 24px;
+    border-bottom: 1px solid rgb(242, 241, 240);
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+}
+
+.phone {
+
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.phone a {
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 12px 20px;
+    width: 30%;
+    color: white;
+    background-color: burlywood;
+    font-size: 16px;
+    border: none;
+    margin-top: 20px;
+}
+
+.phone a:hover {
+    background-color: black;
+    transition: 1s;
+}
+
+.mn a {
+    border: 1px solid rgb(201, 196, 196);
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    margin: 25px 0 2px 5px;
+    padding: 10px 20px;
+    display: inline-block;
+    opacity: 0.7;
+
+}
+
+.mn {
+    padding: 10px 0;
+}
+
+.mn .icon a {
+    border: none;
+    padding-left: 0;
+    color: burlywood;
+    opacity: 1;
+}
+
+.mn .icon a:hover {
+    color: black;
+    background-color: white;
+    opacity: 1;
+}
+
+.mn a:hover {
+    background-color: burlywood;
+    color: white;
+
+}
+
+.share .icons-all {
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.share .icons-all .icons-fb a {
+    background-color: #007aff;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+.share .icons-all .icons-twt a {
+    background-color: #1d9bf0;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 20px;
+
+
+}
+
+.img-1 {
+
+    text-align: center;
+}
+
+.title h2 {
+    color: burlywood;
+    border-bottom: 2px solid burlywood;
+    padding-bottom: 15px;
+    font-weight: 500;
+}
+
+.content {
+    border: 1px solid rgb(201, 196, 196);
+    margin-top: 30px;
+}
+
+.content .bbq {
+    font-size: 16px;
+    margin: 30px 40px;
+}
+
+.content .bbq1,
+.content .bbq2 {
+
+    font-size: 16px;
+    margin: 30px 40px;
+}
+
+.content .bbq3,
+.content .bbq4 {
+    margin-top: 40px;
+}
+
+.content .bbq3 p,
+.content .bbq4 p {
+    margin: 5px 0;
+}
+
+/* dv2 */
+
+.td-dv2 h3 {
+    font-weight: 500;
+    margin: 10px 40px;
+
+}
+
+.content .dv2 {
+    font-size: 16px;
+    margin: 20px 40px;
+}
+
+.content .dv2 span {
+
+    font-weight: 500;
+    display: block;
+    margin: 5px 0;
+}
+
+/* dv3 */
+.bbq-dv3 p {
+    font-size: 16px;
+    margin: 20px 40px;
+}
+
+.dv3-ft ul {
+    font-size: 16px;
+    margin: 30px 80px;
+}
+
+/* dv4 */
+.dv4 p {
+    font-size: 16px;
+    margin: 20px 40px;
+}
+
+.dv4-ft ul {
+    font-size: 16px;
+    margin: 30px 80px;
+}
+
+.dv4 h3 {
+    font-weight: 500;
+    margin: 20px 20px -5px 40px;
+}
+
+/* dv5 */
+.content .dv5 {
+    margin: 30px 40px;
+    font-size: 16px;
+}
+
+.content .dv5 span {
+    font-weight: 500;
+    font-size: 16px;
+    display: block;
+
+    margin: 15px 0px;
+}
+
+/* dv6 */
+.dv6-ct {
+    font-size: 16px;
+    margin: 30px 40px;
+}
+
+.dv6-ct .dv6 p {
+    margin: 20px 0;
+}
+
+/* * */
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Tahoma', sans-serif;
+}
+
+.container1 {
+    width: 1300px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.img-banner {
+    margin-top: 20px;
+    border: 1px solid rgb(207, 196, 196);
+    padding: 10px;
+}
+
+
+.cols h3 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.cols p {
+    font-size: 16px;
+}
+
+.cols .ctn {
+    display: block;
+    color: red;
+    font-size: 24px;
+    border-bottom: 1px solid rgb(242, 241, 240);
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+}
+
+.phone {
+
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.phone a {
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 12px 20px;
+    width: 30%;
+    color: white;
+    background-color: burlywood;
+    font-size: 16px;
+    border: none;
+    margin-top: 20px;
+}
+
+.phone a:hover {
+    background-color: black;
+    transition: 1s;
+}
+
+.mn a {
+    border: 1px solid rgb(201, 196, 196);
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    margin: 25px 0 2px 5px;
+    padding: 10px 20px;
+    display: inline-block;
+    opacity: 0.7;
+
+}
+
+.mn {
+    padding: 10px 0;
+}
+
+.mn .icon a {
+    border: none;
+    padding-left: 0;
+    color: burlywood;
+    opacity: 1;
+}
+
+.mn .icon a:hover {
+    color: black;
+    background-color: white;
+    opacity: 1;
+}
+
+.mn a:hover {
+    background-color: burlywood;
+    color: white;
+
+}
+
+.share .icons-all {
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.share .icons-all .icons-fb a {
+    background-color: #007aff;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+.share .icons-all .icons-twt a {
+    background-color: #1d9bf0;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 20px;
+
+
+}
+
+.img-1 {
+
+    text-align: center;
+}
+
+.title h2 {
+    color: burlywood;
+    border-bottom: 2px solid burlywood;
+    padding-bottom: 15px;
+    font-weight: 500;
+}
+
+.content {
+    border: 1px solid rgb(201, 196, 196);
+    margin-top: 30px;
+}
+
+.content .bbq {
+    font-size: 16px;
+    margin: 30px 40px;
+}
+
+.content .bbq1,
+.content .bbq2 {
+
+    font-size: 16px;
+    margin: 30px 40px;
+}
+
+.content .bbq3,
+.content .bbq4 {
+    margin-top: 40px;
+}
+
+.content .bbq3 p,
+.content .bbq4 p {
+    margin: 5px 0;
+}
+
+/* dv2 */
+
+.td-dv2 h3 {
+    font-weight: 500;
+    margin: 10px 40px;
+
+}
+
+.content .dv2 {
+    font-size: 16px;
+    margin: 20px 40px;
+}
+
+.content .dv2 span {
+
+    font-weight: 500;
+    display: block;
+    margin: 5px 0;
+}
+
+/* dv3 */
+.bbq-dv3 p {
+    font-size: 16px;
+    margin: 20px 40px;
+}
+
+.dv3-ft ul {
+    font-size: 16px;
+    margin: 30px 80px;
+}
+
+/* dv4 */
+.dv4 p {
+    font-size: 16px;
+    margin: 20px 40px;
+}
+
+.dv4-ft ul {
+    font-size: 16px;
+    margin: 30px 80px;
+}
+
+.dv4 h3 {
+    font-weight: 500;
+    margin: 20px 20px -5px 40px;
+}
+
+/* dv5 */
+.content .dv5 {
+    margin: 30px 40px;
+    font-size: 16px;
+}
+
+.content .dv5 span {
+    font-weight: 500;
+    font-size: 16px;
+    display: block;
+
+    margin: 15px 0px;
+}
+
+/* dv6 */
+.dv6-ct {
+    font-size: 16px;
+    margin: 30px 40px;
+}
+
+.dv6-ct .dv6 p {
+    margin: 20px 0;
+}

@@ -1,0 +1,54 @@
+.bg-gray {
+    background-color: rgb(247, 244, 244);
+}
+.bg-white {
+    background-color: white;
+}
+.hs{
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.pdlr7{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.border-radi{
+    border-radius: 50%;
+    
+}
+.justify-end{
+    justify-content: end;
+}
+.g15{
+    gap: 15px;
+}
+.fw6 {
+    font-weight: 600;
+}
+.tdn{
+    text-decoration: none;
+}
+.alit-end{
+    align-items: flex-end;
+}
+.mt2{
+    margin-top: 20px;
+}
+.tttttt{
+    width: 400px;
+    text-align: left;
+    border: 1px solid gray;
+}
+.ttttttt{
+    width: 423px;
+    text-align: left;
+}
+.tal-right{
+    text-align: right;
+}
+.gbee4d2d{
+    background-color: #ee4d2d;
+    border: 1px solid #ee4d2d;
+    color: white;
+}
